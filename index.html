@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
+    <header  class="m-0" class="container">
         <div>
-            <img id="logo" src="./iconeFaster.svg" alt="icone fast"/ width="10%">
-            </div>   
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Price</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div id="butao">
-                <a id="quoteButton" href="#">Get a Quote</a>
-            </div>     
+            <img id="logo" src="./iconeFaster.svg" alt="icone fast">
         </div>
-        </header>
-        <main>
-            <div id="imagemContainer">
-                    <img src="./conteiners.png" alt="foto container" width="100%" height="10%"/>
-                    
-            </div>
+
+        <nav  class="menu">
+            <ul class="m-0" id="listaNav">
+                <li><a id="marcador" href="#">Home</a></li>
+                <li ><a href="#">About</a></li>
+                <li ><a href="#">Service</a></li>
+                <li ><a href="#">Price</a></li>
+                <li ><a href="#">Pages</a></li>
+                <li ><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="butao">
+            <a id="quoteButton" href="#">Get a Quote</a>
+        </div>
 
     </header>
     <main>
+        <!--Parte Cleber-->
+        <div id="imagemContainer">
+             <img src="./conteiners.png" alt="foto container" width="100%" />
+            
+        </div>
+        <input type="text" placeholder="Digite algo">
+
         <!--Parte Ícaro-->
-         <main>
+        <main>
             <article>
                 <section class="legenda">
                     <br>
                     <h4 id="primTitulo"> <strong>GET A QUOTE</strong></h4>
                     <h1 id="segTitulo">Request a Free Quote</h1>
-                    <p id="legPrincipal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia saepe mollitia quod, laboriosam deleniti sequi placeat consectetur dolor adipisci doloribus dolorem cum repellat, nemo omnis quo a. Recusandae, perferendis repellendus.</p>
+                    <p id="legPrincipal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia saepe
+                        mollitia quod, laboriosam deleniti sequi placeat consectetur dolor adipisci doloribus dolorem
+                        cum repellat, nemo omnis quo a. Recusandae, perferendis repellendus.</p>
                 </section>
                 <section class="dados">
                     <div id="dados1">
@@ -62,10 +67,10 @@
                 </section>
                 <section class="credenciais">
                     <div>
-                        <input type="text" name="nome" id="nome" placeholder="Your Name" required>
+                        <input type="text" name="nome" id="nome" placeholder="    Your Name" required>
                     </div><br>
                     <div>
-                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <input type="email" name="email" id="email" placeholder="    Your Email" required>
                     </div><br>
                     <div>
                         <select name="" id="servico">
@@ -79,78 +84,83 @@
             </article>
 
             <!--Parte Thiago-->
-             
-           <div class="container-fluid">
-            <div class="row d-flex flex-row justify-content-center  mt-5">
-                <h5 class="TituloFuncionarios1">delivery team</h5>
-                <h2 class="TituloFuncionarios2">meet our delivery team</h2>
 
-                <div class="col-2  col-md-2 col-lg-2 col-xl-2 p-0 m-2 linha1">
-                    <div>
-                        <img src="imagens/funcionario01.png" alt="" class="w-100">
+            <div class="container-fluid">
+                <div class="row d-flex flex-row justify-content-center  mt-5">
+                    <h5 class="TituloFuncionarios1">delivery team</h5>
+                    <h2 class="TituloFuncionarios2">meet our delivery team</h2>
+
+                    <div class="col-2  col-md-2 col-lg-2 col-xl-2 p-0 m-2 linha1">
+                        <div>
+                            <img src="imagens/funcionario01.png" alt="" class="w-100">
+                        </div>
+                        <h3>full name</h3>
+                        <p>Designation</p>
                     </div>
-                    <h3>full name</h3>
-                    <p>Designation</p>
+                    <div class="col-2  col-md-2 col-lg-2 col-xl-2 p-0  m-2 linha1">
+                        <div>
+                            <img src="imagens/funcionario02.png" alt="" class="w-100">
+                        </div>
+                        <h3>full name</h3>
+                        <p>Designation</p>
+                    </div>
+                    <div class="col-2 col-md-2 col-lg-2 col-xl-2 p-0  m-2 linha1">
+                        <div>
+                            <img src="imagens/funcionaria03.png" alt="" class="w-100">
+                        </div>
+                        <h3>full name</h3>
+                        <p>Designation</p>
+                    </div>
+                    <div class="col-2 col-md-2 col-lg-2 col-xl-2 p-0 m-2 linha1">
+                        <div>
+                            <img src="imagens/funcionario04.png" alt="" class="w-100">
+                        </div>
+                        <h3>full name</h3>
+                        <p>Designation</p>
+                    </div>
                 </div>
-                <div class="col-2  col-md-2 col-lg-2 col-xl-2 p-0  m-2 linha1">
-                    <div>
-                        <img src="imagens/funcionario02.png" alt="" class="w-100">
+                <div class="row mt-5 d-flex flex-row justify-content-center ">
+                    <h5 class="TituloCaras1">our blog</h5>
+                    <h2 class="TituloCaras2">Latest from blog</h2>
+                    <div class="col-4 p-0 m-2 linha2">
+                        <div>
+                            <img src="imagens/carasEmpacotando01.png" alt="" class="w-100">
+                        </div>
+                        <article class="p-4 fs-6">
+                            <h3>kasd tempor diam mar justo dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt temporibus, eveniet
+                                vel
+                                vero vitae delectus aut nisi! Vitae perferendis aliquam facere animi autem natus nam
+                                fuga
+                                adipisci quibusdam delectus!</p>
+                            <a href="#" class="linkLinha2">read more</a>
+                        </article>
                     </div>
-                    <h3>full name</h3>
-                    <p>Designation</p>
-                </div>
-                <div class="col-2 col-md-2 col-lg-2 col-xl-2 p-0  m-2 linha1">
-                    <div>
-                        <img src="imagens/funcionaria03.png" alt="" class="w-100">
+
+                    <div class="col-4 p-0 m-2 linha2">
+                        <div>
+                            <img src="imagens/carasNaendustria01.png" alt="" class="w-100">
+                        </div>
+                        <article class="p-4 fs-6">
+                            <h3>kasd tempor diam mar justo dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt temporibus, eveniet
+                                vel
+                                vero vitae delectus aut nisi! Vitae perferendis aliquam facere animi autem natus nam
+                                fuga
+                                adipisci quibusdam delectus!</p>
+                            <a href="#" class="linkLinha2">read more</a>
+                        </article>
                     </div>
-                    <h3>full name</h3>
-                    <p>Designation</p>
-                </div>
-                <div class="col-2 col-md-2 col-lg-2 col-xl-2 p-0 m-2 linha1">
-                    <div>
-                        <img src="imagens/funcionario04.png" alt="" class="w-100">
-                    </div>
-                    <h3>full name</h3>
-                    <p>Designation</p>
                 </div>
             </div>
-            <div class="row mt-5 d-flex flex-row justify-content-center ">
-                <h5 class="TituloCaras1">our blog</h5>
-                <h2 class="TituloCaras2">Latest from blog</h2>
-                <div class="col-4 p-0 m-2 linha2">
-                    <div>
-                        <img src="imagens/carasEmpacotando01.png" alt="" class="w-100">
-                    </div>
-                    <article class="p-4 fs-6">
-                        <h3>kasd tempor diam mar justo dolor</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt temporibus, eveniet vel
-                            vero vitae delectus aut nisi! Vitae perferendis aliquam facere animi autem natus nam fuga
-                            adipisci quibusdam delectus!</p>
-                        <a href="#" class="linkLinha2">read more</a>
-                    </article>
-                </div>
-
-                <div class="col-4 p-0 m-2 linha2">
-                    <div>
-                        <img src="imagens/carasNaendustria01.png" alt="" class="w-100">
-                    </div>
-                    <article class="p-4 fs-6">
-                        <h3>kasd tempor diam mar justo dolor</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt temporibus, eveniet vel
-                            vero vitae delectus aut nisi! Vitae perferendis aliquam facere animi autem natus nam fuga
-                            adipisci quibusdam delectus!</p>
-                        <a href="#" class="linkLinha2">read more</a>
-                    </article>
-                </div>
-            </div>
-        </div>
-     </main>      
-    <footer>
+        </main>
+        <footer>
 
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
 </body>
+
 </html>
